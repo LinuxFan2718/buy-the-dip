@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/LinuxFan2718/buy-the-dip#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ethers": "^5.0.31"
   }
 }
