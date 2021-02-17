@@ -1,0 +1,22 @@
+{
+  "name": "buy-the-dip",
+  "version": "1.0.0",
+  "description": "bot that buys dips in the price of Ether",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinuxFan2718/buy-the-dip.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Dennis Cahillane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LinuxFan2718/buy-the-dip/issues"
+  },
+  "homepage": "https://github.com/LinuxFan2718/buy-the-dip#readme"
+}
