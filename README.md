@@ -31,8 +31,8 @@ private key.
 
 #### INFURA KEY
 
-Create an account on Infura, create an Ethereum app, visit your Settings page,
-and paste your "project ID" here.
+Create an account on [Infura](https://infura.io/), create an Ethereum app,
+visit your Settings page, and paste your "project ID" here.
 
 ## How to run
 
