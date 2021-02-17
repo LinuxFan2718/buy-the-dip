@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LinuxFan2718/buy-the-dip/issues"
   },
-  "homepage": "https://github.com/LinuxFan2718/buy-the-dip#readme"
+  "homepage": "https://github.com/LinuxFan2718/buy-the-dip#readme",
+  "dependencies": {
+    "ethers": "^5.0.31"
+  }
 }
