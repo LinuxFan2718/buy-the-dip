@@ -5,6 +5,8 @@ Anyone who gets your private key can take all of your money. Don't paste it
 online or check it into git. Don't run code without understanding it. The
 blockchain is dark and full of terrors.
 
+[Uniswap swap function](https://uniswap.org/docs/v2/core-concepts/swaps/)
+
 ## How to set up
 
 Clone this repo and enter the directory.
@@ -40,8 +42,11 @@ visit your Settings page, and paste your "project ID" here.
 node index.js
 ```
 
-You should see the bot start. Currently it loops forever, and prints out the
-block number and current Uniswap price for DAI/ETH trades.
+You will see the bot start.
+
+It loops until the price of ETH/DAI drops below `maxBuyPrice`, then creates
+a transaction swapping 1000 DAI for ETH on Uniswap, submits it for mining,
+then exits.
 
 ### Alternatively use VSCode
 
@@ -49,3 +54,9 @@ Load this directory into VSCode and index.js in a VSCode tab. Then you can
 run the bot using the "Run" menu or pressing F5.
 
 Exit by sending SIGINT (pressing Control C).
+
+## Ideas
+
+Retrieve Ether all time high price using an API instead of hard coding it.
+
+Alert user when a transaction is submitted.
